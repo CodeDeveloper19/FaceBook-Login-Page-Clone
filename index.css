@@ -54,7 +54,189 @@ footer{
     height: 60%;
 }
 
+/***********************************************/
+
 .part2{
     width: 45%;
     height: 100%;
+    padding-top: 6.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.inputcontainer{
+    background-color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-bottom: 5%;
+    padding: 20px 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 55%;
+}
+
+.info{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+}
+
+#create{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+#create:hover, #forgot:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.new{
+    height: 25%;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#new{
+    background-color: #42b72a;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    border: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    width: 55%;
+    height: 50%;
+}
+
+#new:hover{
+   background-color: #36a420;
+   cursor: pointer;
+   border-color: #36a420;
+}
+
+.forgot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+}
+
+#forgot{
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 14px;
+}
+
+input, #login{
+    height: 15%;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding-left: 5%;
+    outline: none;
+}
+
+::placeholder{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 100;
+}
+
+#login{
+    color: white;
+    background-color: #1877f2;
+    border: none;
+    padding: unset;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#login:hover{
+    cursor: pointer;
+    background-color: #166fe5; 
+}
+
+#password{
+    margin: 5% 0 5% 0;
+}
+
+/***************************************/
+.footer{
+    margin: 0 14% 0 14%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.copyright{
+    color: rgba(0, 0, 0, 0.6);
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.language{
+    margin-top: 2%;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.language button{
+    width: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: #f5f6f7;
+}
+
+.language button:hover{
+    cursor: pointer;
+    background-color: #ebedf0;
+}
+
+
+.languages{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+
+.other{
+    flex: 1.1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    padding-top: 1%;
+}
+
+.others, .otherss{
+    display: flex;
+    justify-content: space-between;
+}
+
+.others{
+    width: 93%;
+}
+
+.otherss{
+    width: 98%;
 }
