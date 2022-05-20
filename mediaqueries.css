@@ -1,0 +1,139 @@
+@media only screen and (max-width: 1020px) {
+    .main{
+        height: fit-content;
+        padding-bottom: 35vh;
+    }
+    .container{
+        flex-direction: column;
+        height: fit-content;
+        align-items: center;
+    }
+    .logo{
+        justify-content: center;
+    }
+    .logotext{
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+    .part1{
+        padding-top: unset;
+    }
+    .part2{
+        align-items: center;
+    }
+    .languages{
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 890px){
+    body{
+        font-size: 12px;
+    }
+    .inputcontainer{
+        height: 280px;
+    }
+    ::placeholder{
+        font-size: 13px;
+    }
+    #new{
+        font-size: 12px;
+    }
+    #login{
+        font-size: 14px;
+    }
+    #forgot{
+        font-size: 10px;
+    }
+    .part1 p{
+        font-size: 20px;
+    }
+    .info{
+        text-align: center;
+    }
+    .footer{
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .footer{
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    body{
+        font-size: 10px;
+    }
+    .inputcontainer{
+        height: 280px;
+    }
+    ::placeholder{
+        font-size: 10px;
+    }
+    #new{
+        font-size: 10px;
+    }
+    #login{
+        font-size: 12px;
+    }
+    #forgot{
+        font-size: 8px;
+    }
+    .part1 p{
+        font-size: 18px;
+    }
+    .footer{
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 488px) {
+    ::placeholder{
+        font-size: 8px;
+    }
+    .footer{
+        font-size: 6px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .logo{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    body{
+        font-size: 8px;
+    }
+    .inputcontainer{
+        height: 260px;
+    }
+    ::placeholder{
+        font-size: 8px;
+    }
+    #new{
+        font-size: 8px;
+    }
+    #login{
+        font-size: 10px;
+    }
+    #forgot{
+        font-size: 6px;
+    }
+    .part1 p{
+        font-size: 16px;
+    }
+    .footer{
+        font-size: 4px;
+    }
+}
+
+@media only screen and (max-width: 230px) {
+    body{
+        display: none;
+    }
+}
